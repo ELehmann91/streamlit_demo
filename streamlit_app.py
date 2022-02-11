@@ -9,7 +9,7 @@ st.set_page_config(page_title="Streamlit Geospatial", layout="wide")
 
 apps = {
     "home": {"title": "Home", "icon": "house"},
-    "heatmap": {"title": "Heatmap", "icon": "map"},
+    "policy": {"title": "Climate Action Tracer", "icon": "document"},
     "upload": {"title": "Upload", "icon": "cloud-upload"},
 }
 
@@ -35,10 +35,10 @@ with st.sidebar:
     st.sidebar.title("About")
     st.sidebar.info(
         """
-        This web [app](https://share.streamlit.io/giswqs/streamlit-template) is maintained by [Qiusheng Wu](https://wetlands.io). You can follow me on social media:
-            [GitHub](https://github.com/giswqs) | [Twitter](https://twitter.com/giswqs) | [YouTube](https://www.youtube.com/c/QiushengWu) | [LinkedIn](https://www.linkedin.com/in/qiushengwu).
+        This web is a colaboration from SDSN & GIZ Data Lab. 
+        Credits go to Students from ETH, Maren, Finn, Manuel & Annika.
         
-        Source code: <https://github.com/giswqs/streamlit-template>
+        [Source code](https://github.com/giswqs/streamlit-template)
 
         More menu icons: <https://icons.getbootstrap.com>
     """
